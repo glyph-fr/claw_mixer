@@ -15,6 +15,10 @@ module ClawMixer
       @local_sources ||= false
     end
 
+    def downloaded_files
+      @downloaded_files ||= {}
+    end
+
     def parse
       @sequencer = Sequencer.new
       @data['tracks'].each(&method(:add_track_from))
@@ -24,7 +28,7 @@ module ClawMixer
     private
 
     def add_track_from(track_data)
-      track = Track.new(volume: track_data['volume'])
+      track = Track.new(gain: track_data['volume'])
       track_data['clips'].each do |clip_data|
         add_clip_to_track_from(clip_data, track)
       end
@@ -34,7 +38,13 @@ module ClawMixer
     def add_clip_to_track_from(clip_data, track)
       audio_source = audio_sources[clip_data['audio_source_id']]
       audio_file = load_source(audio_source)
-      clip = Clip.new(source: audio_file, name: audio_source['name'])
+      clip = Clip.new(
+        source: audio_file,
+        name: audio_source['name'],
+        source_offset: audio_source['source_offset'],
+        begin_offset: audio_source['begin_offset'],
+        duration: audio_source['duration']
+      )
       track.clips << clip
     end
 
@@ -45,17 +55,23 @@ module ClawMixer
     end
 
     def load_source(audio_source)
-      local_path = if local_sources
-        File.expand_path(
-          "../../../test/samples/#{ audio_source['url'] }",
-          __FILE__
-        ).to_s
+      if downloaded_files[audio_source['url']]
+        local_path = downloaded_files[audio_source['url']]
       else
-        download_file(audio_source['url'])
-      end
+        local_path = if local_sources
+          File.expand_path(
+            "../../../test/samples/#{ audio_source['url'] }",
+            __FILE__
+          ).to_s
+        else
+          download_file(audio_source['url'])
+        end
 
-      if audio_source['type'].match(/mp3/)
-        local_path = convert_to_wav(local_path)
+        if audio_source['type'].match(/mp3/)
+          local_path = convert_to_wav(local_path)
+        end
+
+        downloaded_files[audio_source['url']] = local_path
       end
 
       RubyAudio::Sound.open(local_path)

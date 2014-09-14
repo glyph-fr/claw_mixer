@@ -1,9 +1,9 @@
 module ClawMixer
   class Track < ClawMixer::Model
-    attr_writer :volume
+    attr_writer :gain
 
-    def volume
-      @volume ||= 0
+    def gain
+      @gain ||= 0
     end
 
     def clips
@@ -34,6 +34,17 @@ module ClawMixer
       length = (last_sample - first_sample) + (offset < 0 ? offset : 0)
 
       samples = clip.read_samples(start, length)
+
+      # Apply gain to
+      samples.each_with_index do |channels, index|
+        samples[index] = if clip.channels == 1
+          channels * gain
+        else
+          channels.map do |sample|
+            sample * gain
+          end
+        end
+      end
 
       fill_buffer(samples, 0..(-offset - 1), clip.channels) if offset < 0
 

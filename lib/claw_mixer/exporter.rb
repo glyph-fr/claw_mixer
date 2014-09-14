@@ -10,7 +10,7 @@ module ClawMixer
 
     def run(file_name, &callback)
       RubyAudio::Sound.open(file_name, 'w', out_info) do |out_file|
-        (2_200..buffers_count).each do |buffer_index|
+        (0..buffers_count).each do |buffer_index|
           buffer = frame_buffer(buffer_index)
           out_file.write(buffer)
           callback.call(buffer_index) if callback
@@ -19,7 +19,7 @@ module ClawMixer
     end
 
     def buffers_count
-      ((sequencer.length / BUFFER_SIZE).ceil / 10) + 2_200
+      (sequencer.length / BUFFER_SIZE).ceil
     end
 
     def frame_buffer(buffer_index)
@@ -33,7 +33,7 @@ module ClawMixer
       mix_buffers(track_samples)
     end
 
-    def mix_buffers(buffers, buffers_count)
+    def mix_buffers(buffers)
       buffer = RubyAudio::Buffer.float(BUFFER_SIZE, 2)
       buffers_count = buffers.length
 
