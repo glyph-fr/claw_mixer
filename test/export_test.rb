@@ -5,7 +5,7 @@ sequencer = ClawMixer::Sequencer.new
 kick_track = ClawMixer::Track.new
 clap_track = ClawMixer::Track.new
 
-32.times do |index|
+8.times do |index|
   kick_clip = ClawMixer::Clip.new(source: open_sound('samples/kick.wav'), name: 'kick')
   kick_clip.start_offset = 44_100 * index
 

@@ -1,6 +1,7 @@
 $:.push File.expand_path('../../lib', __FILE__)
 
 require 'claw_mixer'
+require 'ruby-progressbar'
 
 def file_path(name)
   File.expand_path("../#{ name }", __FILE__)

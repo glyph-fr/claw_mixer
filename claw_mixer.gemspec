@@ -16,4 +16,5 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*'] + ['README.md']
 
   s.add_dependency 'ruby-audio'
+  s.add_dependency 'ruby-progressbar'
 end

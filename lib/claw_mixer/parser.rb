@@ -4,10 +4,15 @@ require 'tempfile'
 
 module ClawMixer
   class Parser
+    attr_writer :local_sources
     attr_reader :sequencer, :data
 
     def initialize(json)
       @data = JSON.parse(json)
+    end
+
+    def local_sources
+      @local_sources ||= false
     end
 
     def parse
@@ -40,7 +45,14 @@ module ClawMixer
     end
 
     def load_source(audio_source)
-      local_path = download_file(audio_source['url'])
+      local_path = if local_sources
+        File.expand_path(
+          "../../../test/samples/#{ audio_source['url'] }",
+          __FILE__
+        ).to_s
+      else
+        download_file(audio_source['url'])
+      end
 
       if audio_source['type'].match(/mp3/)
         local_path = convert_to_wav(local_path)
@@ -54,6 +66,7 @@ module ClawMixer
       uri = URI.parse(url)
 
       print "Downloading #{ url } ..."
+
       Net::HTTP.start(uri.host, uri.port) do |http|
         request = Net::HTTP::Get.new(uri)
 
@@ -64,15 +77,16 @@ module ClawMixer
         end
       end
 
-      puts "Done."
+      puts "OK"
+
       destination.path
     end
 
     def convert_to_wav(path)
       wav_path = "#{ path.gsub(/\.mp3/, '') }.wav"
-      print "Decoding #{ path } ... "
-      `lame --decode #{ path } #{ wav_path }`
-      puts "Done ! => #{ wav_path }"
+      print "Decoding ... "
+      `lame --decode "#{ path }" "#{ wav_path }" > /dev/null 2>&1`
+      puts "OK"
       wav_path
     end
 

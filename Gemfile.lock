@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    claw_mixer (0.0.1)
+      ruby-audio
+      ruby-progressbar
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ruby-audio (1.6.1)
+    ruby-progressbar (1.5.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  claw_mixer!

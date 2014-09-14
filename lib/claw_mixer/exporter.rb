@@ -2,19 +2,24 @@ module ClawMixer
   class Exporter < ClawMixer::Model
     attr_reader :sequencer
 
-    BUFFER_SIZE = 1000
+    BUFFER_SIZE = 1024
 
     def initialize(sequencer)
       @sequencer = sequencer
     end
 
-    def run(file_name)
+    def run(file_name, &callback)
       RubyAudio::Sound.open(file_name, 'w', out_info) do |out_file|
-        (0..(sequencer.length / BUFFER_SIZE).ceil).each do |buffer_index|
+        (2_200..buffers_count).each do |buffer_index|
           buffer = frame_buffer(buffer_index)
           out_file.write(buffer)
+          callback.call(buffer_index) if callback
         end
       end
+    end
+
+    def buffers_count
+      ((sequencer.length / BUFFER_SIZE).ceil / 10) + 2_200
     end
 
     def frame_buffer(buffer_index)
@@ -28,29 +33,37 @@ module ClawMixer
       mix_buffers(track_samples)
     end
 
-    def mix_buffers(buffers)
+    def mix_buffers(buffers, buffers_count)
       buffer = RubyAudio::Buffer.float(BUFFER_SIZE, 2)
       buffers_count = buffers.length
 
       BUFFER_SIZE.times.each do |index|
-        mix = buffers.reduce([0.0, 0.0]) do |total, samples|
+        mix = buffers.reduce([0, 0]) do |total, samples|
           total.each_with_index do |channel_total, channel_index|
-            track_channel_sample = if (channel = samples[index]).is_a?(Array)
+            channel = samples[index]
+
+            track_channel_sample = if channel.is_a?(Array)
               channel[channel_index]
             else
-              channel || 0.0
+              channel || 0
             end
 
-            total[channel_index] = channel_total + (track_channel_sample / buffers_count)
+            total[channel_index] = channel_total + track_channel_sample
           end
 
           total
         end
 
-        buffer[index] = mix
+        buffer[index] = mix.map do |sample|
+          compressor.compress(sample, buffers_count)
+        end
       end
 
       buffer
+    end
+
+    def compressor
+      @compressor ||= LogDynRangeCompressor.new
     end
 
     def out_info

@@ -24,7 +24,7 @@ module ClawMixer
       end
 
       # If no clip matched the desired range, return a buffer full of zeros
-      Array.new(((last_sample - first_sample) + 1), [0.0, 0.0])
+      Array.new(((last_sample - first_sample) + 1), [0, 0])
     end
 
     def samples_for_clip(clip, first_sample, last_sample)
@@ -40,9 +40,9 @@ module ClawMixer
       samples
     end
 
-    def fill_buffer(original_buffer, range, channels, value = 0.0)
+    def fill_buffer(original_buffer, range, channels, value = 0)
       buffer_size = original_buffer.real_size + range.size
-      buffer = RubyAudio::Buffer.float(buffer_size, channels)
+      buffer = RubyAudio::Buffer.int(buffer_size, channels)
 
       range.each do |index|
         buffer[index] = if channels == 1

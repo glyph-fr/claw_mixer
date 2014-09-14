@@ -1,20 +1,20 @@
 {
-    "id": 435,
-    "name": "Tigerminh",
-    "bpm": 120.0,
+    "id": 384,
+    "name": "Blue Pitch",
+    "bpm": 115.0,
     "volume": 1.0,
     "beats_in_bar": 4,
     "beat_unit": 4,
     "tracks_count": 8,
-    "discussions_count": 2,
-    "created_at": "2014-07-13T16:05:51+02:00",
-    "updated_at": "2014-08-30T16:28:40+02:00",
-    "disk_usage": 16901001,
-    "url": "http://app.claw-studio.com/projects/435/edit",
+    "discussions_count": 3,
+    "created_at": "2014-05-06T11:18:01+02:00",
+    "updated_at": "2014-09-14T22:26:10+02:00",
+    "disk_usage": 30191636,
+    "url": "http://app.claw-studio.com/projects/384/edit",
     "accessible_by_link": false,
-    "read_only_url": "http://app.claw-studio.com/projects/p3jr6w9qr96212379asz2loa46gbgrn3/view",
+    "read_only_url": "http://app.claw-studio.com/projects/s71yge3vu2j52w9e9fno2sduhad6iuk9/view",
     "client_app_id": null,
-    "audio_sources_count": 9,
+    "audio_sources_count": 10,
     "unread": false,
     "collaborators": [{
         "id": 3,
@@ -26,18 +26,7 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/003/large/RackMultipart20130917-15-1t5tqqk?1386152395"
         },
         "owner": true,
-        "last_seen_at": "2014-08-30T16:29:06+02:00"
-    }, {
-        "id": 87,
-        "name": "Epsysague",
-        "email": "infected_mushi@hotmail.fr",
-        "avatar_urls": {
-            "small": "http://assets.claw-studio.com/users/avatars/000/000/087/small/RackMultipart20130830-20-l7fusv?1386152463",
-            "medium": "http://assets.claw-studio.com/users/avatars/000/000/087/medium/RackMultipart20130830-20-l7fusv?1386152463",
-            "large": "http://assets.claw-studio.com/users/avatars/000/000/087/large/RackMultipart20130830-20-l7fusv?1386152463"
-        },
-        "owner": false,
-        "last_seen_at": "2014-08-23T11:49:05+02:00"
+        "last_seen_at": "2014-09-14T23:50:04+02:00"
     }, {
         "id": 50,
         "name": "Yanik",
@@ -48,7 +37,7 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/050/large/RackMultipart20131128-11-dqa06m?1386152422"
         },
         "owner": false,
-        "last_seen_at": "2014-08-28T18:26:52+02:00"
+        "last_seen_at": "2014-08-25T16:12:39+02:00"
     }, {
         "id": 104,
         "name": "Lino",
@@ -59,7 +48,7 @@
             "large": "http://backend.claw-studio.com/avatars/large/missing.png"
         },
         "owner": false,
-        "last_seen_at": "2014-08-26T17:56:34+02:00"
+        "last_seen_at": "2014-07-21T00:02:53+02:00"
     }, {
         "id": 16,
         "name": "Ben echo doppler",
@@ -70,7 +59,18 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/016/large/RackMultipart20130626-22-1jjvsma?1386152397"
         },
         "owner": false,
-        "last_seen_at": "2014-08-27T15:33:18+02:00"
+        "last_seen_at": "2014-05-22T23:11:43+02:00"
+    }, {
+        "id": 87,
+        "name": "Epsysague",
+        "email": "infected_mushi@hotmail.fr",
+        "avatar_urls": {
+            "small": "http://assets.claw-studio.com/users/avatars/000/000/087/small/RackMultipart20130830-20-l7fusv?1386152463",
+            "medium": "http://assets.claw-studio.com/users/avatars/000/000/087/medium/RackMultipart20130830-20-l7fusv?1386152463",
+            "large": "http://assets.claw-studio.com/users/avatars/000/000/087/large/RackMultipart20130830-20-l7fusv?1386152463"
+        },
+        "owner": false,
+        "last_seen_at": "2014-05-24T13:22:49+02:00"
     }, {
         "id": 331,
         "name": "VJ20",
@@ -81,274 +81,289 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/331/large/RackMultipart20140425-15-v7m3n6?1398442294"
         },
         "owner": false,
-        "last_seen_at": null
+        "last_seen_at": "2014-05-09T12:35:55+02:00"
     }],
     "tracks": [{
-        "id": 2668,
-        "name": "Drums",
-        "volume": 0.79,
+        "id": 2533,
+        "name": "Blue-Pitch Drums",
+        "volume": 1.0,
         "position": 0,
         "owner_id": 3,
         "clips": [{
-            "id": 3159,
+            "id": 2992,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 234.6720861678,
-            "audio_source_id": 1959,
+            "duration": 313.039433106576,
+            "audio_source_id": 1861,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2669,
-        "name": "Bass",
-        "volume": 0.78,
+        "id": 2534,
+        "name": "Blue-Pitch Bass",
+        "volume": 1.0,
         "position": 1,
         "owner_id": 3,
         "clips": [{
-            "id": 3160,
+            "id": 2993,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 234.6720861678,
-            "audio_source_id": 1960,
+            "duration": 313.039433106576,
+            "audio_source_id": 1862,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2670,
-        "name": "Skanks",
-        "volume": 0.78,
+        "id": 2535,
+        "name": "Blue-Pitch Guitar",
+        "volume": 1.0,
         "position": 2,
         "owner_id": 3,
         "clips": [{
-            "id": 3161,
+            "id": 2994,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 234.6720861678,
-            "audio_source_id": 1962,
+            "duration": 313.039433106576,
+            "audio_source_id": 1863,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2671,
-        "name": "Guitar",
-        "volume": 0.96,
+        "id": 2536,
+        "name": "Blue-Pitch Clavier",
+        "volume": 1.0,
         "position": 3,
         "owner_id": 3,
         "clips": [{
-            "id": 3162,
-            "source_offset": 0.0,
+            "id": 2995,
+            "source_offset": 4.17391304347826,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 234.6720861678,
-            "audio_source_id": 1961,
-            "last_modified_by": 3,
+            "duration": 313.039433106576,
+            "audio_source_id": 1864,
+            "last_modified_by": 87,
             "discussions": []
         }]
     }, {
-        "id": 2672,
-        "name": "Lead",
-        "volume": 1.0,
+        "id": 2537,
+        "name": "Blue-Pitch MS 20",
+        "volume": 0.65,
         "position": 4,
         "owner_id": 3,
         "clips": [{
-            "id": 3163,
+            "id": 2996,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 234.6720861678,
-            "audio_source_id": 1963,
+            "duration": 313.039433106576,
+            "audio_source_id": 1865,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2673,
-        "name": "Samples",
+        "id": 2539,
+        "name": "Blue-Pitch A-RVerb Mono_Stereo",
         "volume": 1.0,
         "position": 5,
         "owner_id": 3,
         "clips": [{
-            "id": 3164,
+            "id": 2998,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 234.6720861678,
-            "audio_source_id": 1964,
+            "duration": 313.039433106576,
+            "audio_source_id": 1867,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2674,
-        "name": "Reverb",
+        "id": 2540,
+        "name": "Blue-Pitch B-LoAir Mono",
         "volume": 1.0,
         "position": 6,
         "owner_id": 3,
         "clips": [{
-            "id": 3165,
+            "id": 2999,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 234.6720861678,
-            "audio_source_id": 1965,
-            "last_modified_by": 3,
-            "discussions": []
-        }]
-    }, {
-        "id": 2675,
-        "name": "Sub",
-        "volume": 1.0,
-        "position": 7,
-        "owner_id": 3,
-        "clips": [{
-            "id": 3166,
-            "source_offset": 0.0,
-            "begin_offset": 0.0,
-            "end_offset": 0.0,
-            "duration": 234.6720861678,
-            "audio_source_id": 1966,
+            "duration": 313.039433106576,
+            "audio_source_id": 1868,
             "last_modified_by": 3,
             "discussions": []
         }]
     }],
     "audio_sources": [{
-        "id": 1959,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:25:37+02:00",
+        "id": 1861,
+        "duration": 313.052490234375,
+        "created_at": "2014-05-18T13:42:52+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/959/original/Drums.mp3?1408487169",
+        "url": "blue-pitch/Blue-Pitch Drums.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Drums.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/959/original/waveform_audiofile-1408487155.161398.png?1408487169",
+        "bytes": 2504828,
+        "name": "Blue-Pitch Drums.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/861/original/waveform_audiofile-1406398990.9777608.png?1406399009",
         "waveform_type": "image/png",
-        "waveform_bytes": 1950,
-        "waveform_name": "waveform_audiofile-1408487155.161398.png"
+        "waveform_bytes": 1755,
+        "waveform_name": "waveform_audiofile-1406398990.9777608.png"
     }, {
-        "id": 1960,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:25:49+02:00",
+        "id": 1862,
+        "duration": 313.052490234375,
+        "created_at": "2014-05-18T13:42:57+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/960/original/Bass.mp3?1408487181",
+        "url": "blue-pitch/Blue-Pitch Bass.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Bass.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/960/original/waveform_audiofile-1408487172.2947228.png?1408487181",
+        "bytes": 2504828,
+        "name": "Blue-Pitch Bass.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/862/original/waveform_audiofile-1406399009.7153645.png?1406399027",
         "waveform_type": "image/png",
-        "waveform_bytes": 1542,
-        "waveform_name": "waveform_audiofile-1408487172.2947228.png"
+        "waveform_bytes": 1301,
+        "waveform_name": "waveform_audiofile-1406399009.7153645.png"
     }, {
-        "id": 1961,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:26:00+02:00",
+        "id": 1863,
+        "duration": 313.052490234375,
+        "created_at": "2014-05-18T13:43:02+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/961/original/Guitar.mp3?1408487216",
+        "url": "blue-pitch/Blue-Pitch Guitar.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Guitar.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/961/original/waveform_audiofile-1408487206.2365193.png?1408487215",
+        "bytes": 2504828,
+        "name": "Blue-Pitch Guitar.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/863/original/waveform_audiofile-1406399027.883815.png?1406399046",
         "waveform_type": "image/png",
-        "waveform_bytes": 1128,
-        "waveform_name": "waveform_audiofile-1408487206.2365193.png"
+        "waveform_bytes": 1196,
+        "waveform_name": "waveform_audiofile-1406399027.883815.png"
     }, {
-        "id": 1962,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:26:09+02:00",
+        "id": 1864,
+        "duration": 313.052490234375,
+        "created_at": "2014-05-18T13:43:05+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/962/original/Skanks.mp3?1408487200",
+        "url": "blue-pitch/Blue-Pitch Clavier.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Skanks.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/962/original/waveform_audiofile-1408487189.750109.png?1408487200",
+        "bytes": 2504828,
+        "name": "Blue-Pitch Clavier.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/864/original/waveform_audiofile-1406399046.221683.png?1406399066",
         "waveform_type": "image/png",
-        "waveform_bytes": 391,
-        "waveform_name": "waveform_audiofile-1408487189.750109.png"
+        "waveform_bytes": 412,
+        "waveform_name": "waveform_audiofile-1406399046.221683.png"
     }, {
-        "id": 1963,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:26:25+02:00",
+        "id": 1865,
+        "duration": 313.052490234375,
+        "created_at": "2014-05-18T13:43:08+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/963/original/Lead.mp3?1408487232",
+        "url": "blue-pitch/Blue-Pitch MS 20.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Lead.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/963/original/waveform_audiofile-1408487222.8214564.png?1408487232",
+        "bytes": 2504828,
+        "name": "Blue-Pitch MS 20.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/865/original/waveform_audiofile-1406399066.2405527.png?1406399084",
         "waveform_type": "image/png",
-        "waveform_bytes": 674,
-        "waveform_name": "waveform_audiofile-1408487222.8214564.png"
+        "waveform_bytes": 707,
+        "waveform_name": "waveform_audiofile-1406399066.2405527.png"
     }, {
-        "id": 1964,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:26:36+02:00",
+        "id": 1866,
+        "duration": 313.052490234375,
+        "created_at": "2014-05-18T13:43:11+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/964/original/Samples.mp3?1408487249",
+        "url": "blue-pitch/Blue-Pitch Samples.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Samples.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/964/original/waveform_audiofile-1408487239.6265342.png?1408487249",
+        "bytes": 2504828,
+        "name": "Blue-Pitch Samples.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/866/original/waveform_audiofile-1406399084.63031.png?1406399104",
         "waveform_type": "image/png",
-        "waveform_bytes": 715,
-        "waveform_name": "waveform_audiofile-1408487239.6265342.png"
+        "waveform_bytes": 1133,
+        "waveform_name": "waveform_audiofile-1406399084.63031.png"
     }, {
-        "id": 1965,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:26:51+02:00",
+        "id": 1867,
+        "duration": 313.052490234375,
+        "created_at": "2014-05-18T13:43:21+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/965/original/Reverb.mp3?1408487266",
+        "url": "blue-pitch/Blue-Pitch A-RVerb Mono_Stereo.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Reverb.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/965/original/waveform_audiofile-1408487256.609821.png?1408487266",
+        "bytes": 2504828,
+        "name": "Blue-Pitch A-RVerb Mono_Stereo.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/867/original/waveform_audiofile-1406399104.1366684.png?1406399122",
         "waveform_type": "image/png",
-        "waveform_bytes": 551,
-        "waveform_name": "waveform_audiofile-1408487256.609821.png"
+        "waveform_bytes": 710,
+        "waveform_name": "waveform_audiofile-1406399104.1366684.png"
     }, {
-        "id": 1966,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:27:02+02:00",
+        "id": 1868,
+        "duration": 313.052490234375,
+        "created_at": "2014-05-18T13:43:23+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/966/original/Sub.mp3?1408487283",
+        "url": "blue-pitch/Blue-Pitch B-LoAir Mono.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Sub.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/966/original/waveform_audiofile-1408487273.2178807.png?1408487283",
+        "bytes": 2504828,
+        "name": "Blue-Pitch B-LoAir Mono.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/868/original/waveform_audiofile-1406399122.7777753.png?1406399141",
         "waveform_type": "image/png",
-        "waveform_bytes": 2320,
-        "waveform_name": "waveform_audiofile-1408487273.2178807.png"
+        "waveform_bytes": 2099,
+        "waveform_name": "waveform_audiofile-1406399122.7777753.png"
     }, {
-        "id": 1967,
-        "duration": 234.68514739229,
-        "created_at": "2014-08-20T00:27:53+02:00",
+        "id": 1873,
+        "duration": 317.279968261719,
+        "created_at": "2014-05-19T23:18:42+02:00",
         "uploaded": true,
-        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/967/original/Tigerminh-Master.mp3?1408487300",
+        "url": "blue-pitch/blue pitch samples 1905.mp3",
         "type": "audio/mp3",
-        "bytes": 1877889,
-        "name": "Tigerminh-Master.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/967/original/waveform_audiofile-1408487290.6299915.png?1408487300",
+        "bytes": 5076506,
+        "name": "blue pitch samples 1905.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/873/original/waveform_audiofile-1406399143.1199276.png?1406399180",
         "waveform_type": "image/png",
-        "waveform_bytes": 2271,
-        "waveform_name": "waveform_audiofile-1408487290.6299915.png"
+        "waveform_bytes": 1247,
+        "waveform_name": "waveform_audiofile-1406399143.1199276.png"
+    }, {
+        "id": 1874,
+        "duration": 317.279968261719,
+        "created_at": "2014-05-19T23:25:13+02:00",
+        "uploaded": true,
+        "url": "blue-pitch/blue pitch samples 1905.mp3",
+        "type": "audio/mp3",
+        "bytes": 5076506,
+        "name": "blue pitch samples 1905.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/874/original/waveform_audiofile-1406399181.0693295.png?1406399218",
+        "waveform_type": "image/png",
+        "waveform_bytes": 1247,
+        "waveform_name": "waveform_audiofile-1406399181.0693295.png"
     }],
     "discussions": [{
-        "id": 151,
-        "content": " Je vous balance une idée de morceau autour du thème de la guerre d'indochine et le Vietminh. Hésitez pas à balancer des lignes et bouger les trucs. Ou à proposer d'autres morceaux !",
+        "id": 130,
+        "content": "Voilà la version de la répète d'hier, que j'ai vite fait corriger à certains endroits (mise en place du kick et skank) et j'ai rajouté deux tours de \"couplet\" à la fin, à revoir mais ça servira déjà de base !",
         "position": 0.0,
-        "created_at": "2014-07-13T16:09:29+02:00",
-        "updated_at": "2014-08-27T16:04:27+02:00",
+        "created_at": "2014-05-06T11:28:28+02:00",
+        "updated_at": "2014-05-19T14:41:41+02:00",
         "author_id": 3,
         "comments": [{
-            "id": 122,
-            "content": "est ce que quelqu'un saurait faire une mélodie avec des cuivres ? pour ce morceau genre au clavier mais qui sonne cuivre je ne sais pas trop dans le délire ",
+            "id": 104,
+            "content": "J'ai ajouté des p'tites choses....La melodie avec delay du debut c'est chelou c'est pas calé sur claw mais c'est calé sur live....Du coup ca fait bidon..;",
+            "author_id": 16,
+            "created_at": "2014-05-06T23:11:31+02:00"
+        }, {
+            "id": 111,
+            "content": "@vala:tu me fais trop marrer quand on t'entend chanter au début et vers 3 mn ",
             "author_id": 50,
-            "created_at": "2014-08-27T16:04:27+02:00"
+            "created_at": "2014-05-19T14:36:21+02:00"
+        }, {
+            "id": 112,
+            "content": "Putain j'espérais que personne ne remarquerai !",
+            "author_id": 3,
+            "created_at": "2014-05-19T14:41:41+02:00"
         }]
     }, {
-        "id": 160,
-        "content": "New vershan pon di seshan again, wid bran new recz from de twemplin late july bwadaz",
+        "id": 136,
+        "content": "Alex faut que tu trouve un gros lead wobble sur les contre temps\n",
         "position": 0.0,
-        "created_at": "2014-08-20T00:35:52+02:00",
-        "updated_at": "2014-08-20T00:35:52+02:00",
+        "created_at": "2014-05-08T18:17:59+02:00",
+        "updated_at": "2014-05-08T18:17:59+02:00",
+        "author_id": 104,
+        "comments": []
+    }, {
+        "id": 147,
+        "content": "J'ai uploadé la version de la répète de samedi :\n- @Ben : J'ai viré toute la partie avec ton arpégiateur, ça marchait pas trop au niveau de l'arpegio, mais les samples qui étaient en même temps étaient cool. À voir mais peut être qu'il y a pas besoin de synthé à cet endroit là de ton côté. Aussi, tu remarqueras qu'il y a une partie en plus. Et on a réduit un peu la partie ou y'avait ton arpégiateur aussi, c'est passé de 10 patterns à 8. Je te laisse checker.\n- @Alex : J'ai viré ton synthé au moment où on part sur la première partie après l'intro, ça faisait trop à l'écoute. trop de MS20 tue le MS20 ma gueule.",
+        "position": 0.0,
+        "created_at": "2014-05-18T13:47:15+02:00",
+        "updated_at": "2014-05-18T13:47:15+02:00",
         "author_id": 3,
         "comments": []
     }]
