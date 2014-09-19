@@ -1,5 +1,7 @@
 module ClawMixer
   class Track < ClawMixer::Model
+    attr_accessor :name
+
     attr_writer :gain
 
     def gain
@@ -12,7 +14,7 @@ module ClawMixer
 
     def length
       clips.reduce(0) do |max, clip|
-        [max, clip.start_offset + clip.length].max
+        [max, clip.end_sample_offset].max
       end
     end
 
@@ -28,7 +30,7 @@ module ClawMixer
     end
 
     def samples_for_clip(clip, first_sample, last_sample)
-      offset = first_sample - clip.start_offset
+      offset = first_sample - clip.start_sample_offset
       start = [offset, 0].max
 
       length = (last_sample - first_sample) + (offset < 0 ? offset : 0)

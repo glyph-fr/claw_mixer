@@ -4,12 +4,14 @@ PATH
     claw_mixer (0.0.1)
       ruby-audio
       ruby-progressbar
+      terminal-table
 
 GEM
   remote: http://rubygems.org/
   specs:
     ruby-audio (1.6.1)
     ruby-progressbar (1.5.1)
+    terminal-table (1.4.5)
 
 PLATFORMS
   ruby

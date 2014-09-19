@@ -27,7 +27,20 @@ module ClawMixer
       last_sample = first_sample + BUFFER_SIZE - 1
 
       track_samples = sequencer.tracks.map do |track|
-        track.samples_between(first_sample, last_sample)
+        begin
+          track.samples_between(first_sample, last_sample)
+        rescue RubyAudio::Error, NoMemoryError => e
+          puts "Error when Mixing samples "
+          puts Terminal::Table.new(rows: [
+            ["Track name", track.name],
+            ["Buffer index", buffer_index],
+            ["Buffers count", buffers_count],
+            ["first sample", first_sample],
+            ["last_sample", last_sample]
+          ])
+
+          raise e
+        end
       end
 
       mix_buffers(track_samples)

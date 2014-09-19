@@ -28,7 +28,7 @@ module ClawMixer
     private
 
     def add_track_from(track_data)
-      track = Track.new(gain: track_data['volume'])
+      track = Track.new(name: track_data['name'], gain: track_data['volume'])
       track_data['clips'].each do |clip_data|
         add_clip_to_track_from(clip_data, track)
       end
@@ -38,12 +38,14 @@ module ClawMixer
     def add_clip_to_track_from(clip_data, track)
       audio_source = audio_sources[clip_data['audio_source_id']]
       audio_file = load_source(audio_source)
+
       clip = Clip.new(
-        source: audio_file,
+        id: clip_data['id'],
         name: audio_source['name'],
-        source_offset: audio_source['source_offset'],
-        begin_offset: audio_source['begin_offset'],
-        duration: audio_source['duration']
+        source: audio_file,
+        source_offset: clip_data['source_offset'],
+        begin_offset: clip_data['begin_offset'],
+        duration: clip_data['duration']
       )
       track.clips << clip
     end
@@ -74,7 +76,7 @@ module ClawMixer
         downloaded_files[audio_source['url']] = local_path
       end
 
-      RubyAudio::Sound.open(local_path)
+      RubyAudio::Sound.new(local_path)
     end
 
     def download_file(url)
@@ -100,8 +102,13 @@ module ClawMixer
 
     def convert_to_wav(path)
       wav_path = "#{ path.gsub(/\.mp3/, '') }.wav"
+
+      # If already converted, return wav path directly
+      # Used for local_sources options
+      return wav_path if File.exist?(wav_path)
+
       print "Decoding ... "
-      `lame --decode "#{ path }" "#{ wav_path }" > /dev/null 2>&1`
+      `lame -b 44.1 --decode "#{ path }" "#{ wav_path }" > /dev/null 2>&1`
       puts "OK"
       wav_path
     end

@@ -1,18 +1,18 @@
 {
-    "id": 384,
-    "name": "Blue Pitch",
-    "bpm": 115.0,
+    "id": 334,
+    "name": "Bald Helmet Mars 2014",
+    "bpm": 145.0,
     "volume": 1.0,
     "beats_in_bar": 4,
     "beat_unit": 4,
-    "tracks_count": 8,
-    "discussions_count": 3,
-    "created_at": "2014-05-06T11:18:01+02:00",
-    "updated_at": "2014-09-14T22:26:10+02:00",
-    "disk_usage": 30191636,
-    "url": "http://app.claw-studio.com/projects/384/edit",
+    "tracks_count": 10,
+    "discussions_count": 4,
+    "created_at": "2014-03-19T21:57:32+01:00",
+    "updated_at": "2014-09-19T21:13:44+02:00",
+    "disk_usage": 23960990,
+    "url": "http://app.claw-studio.com/projects/334/edit",
     "accessible_by_link": false,
-    "read_only_url": "http://app.claw-studio.com/projects/s71yge3vu2j52w9e9fno2sduhad6iuk9/view",
+    "read_only_url": "http://app.claw-studio.com/projects/azvq9960kvqdkc36l24j77n48yjkwuxc/view",
     "client_app_id": null,
     "audio_sources_count": 10,
     "unread": false,
@@ -26,7 +26,7 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/003/large/RackMultipart20130917-15-1t5tqqk?1386152395"
         },
         "owner": true,
-        "last_seen_at": "2014-09-14T23:50:04+02:00"
+        "last_seen_at": "2014-09-19T21:15:40+02:00"
     }, {
         "id": 50,
         "name": "Yanik",
@@ -37,18 +37,7 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/050/large/RackMultipart20131128-11-dqa06m?1386152422"
         },
         "owner": false,
-        "last_seen_at": "2014-08-25T16:12:39+02:00"
-    }, {
-        "id": 104,
-        "name": "Lino",
-        "email": "lino_c@hotmail.fr",
-        "avatar_urls": {
-            "small": "http://backend.claw-studio.com/avatars/small/missing.png",
-            "medium": "http://backend.claw-studio.com/avatars/medium/missing.png",
-            "large": "http://backend.claw-studio.com/avatars/large/missing.png"
-        },
-        "owner": false,
-        "last_seen_at": "2014-07-21T00:02:53+02:00"
+        "last_seen_at": "2014-07-09T19:38:01+02:00"
     }, {
         "id": 16,
         "name": "Ben echo doppler",
@@ -59,7 +48,18 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/016/large/RackMultipart20130626-22-1jjvsma?1386152397"
         },
         "owner": false,
-        "last_seen_at": "2014-05-22T23:11:43+02:00"
+        "last_seen_at": "2014-05-22T23:58:25+02:00"
+    }, {
+        "id": 104,
+        "name": "Lino",
+        "email": "lino_c@hotmail.fr",
+        "avatar_urls": {
+            "small": "http://backend.claw-studio.com/avatars/small/missing.png",
+            "medium": "http://backend.claw-studio.com/avatars/medium/missing.png",
+            "large": "http://backend.claw-studio.com/avatars/large/missing.png"
+        },
+        "owner": false,
+        "last_seen_at": "2014-09-17T02:38:05+02:00"
     }, {
         "id": 87,
         "name": "Epsysague",
@@ -70,7 +70,7 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/087/large/RackMultipart20130830-20-l7fusv?1386152463"
         },
         "owner": false,
-        "last_seen_at": "2014-05-24T13:22:49+02:00"
+        "last_seen_at": "2014-09-17T20:05:16+02:00"
     }, {
         "id": 331,
         "name": "VJ20",
@@ -81,290 +81,419 @@
             "large": "http://assets.claw-studio.com/users/avatars/000/000/331/large/RackMultipart20140425-15-v7m3n6?1398442294"
         },
         "owner": false,
-        "last_seen_at": "2014-05-09T12:35:55+02:00"
+        "last_seen_at": "2014-04-28T20:23:38+02:00"
     }],
     "tracks": [{
-        "id": 2533,
-        "name": "Blue-Pitch Drums",
-        "volume": 1.0,
-        "position": 0,
+        "id": 2108,
+        "name": "MS-20",
+        "volume": 0.29,
+        "position": 4,
         "owner_id": 3,
         "clips": [{
-            "id": 2992,
+            "id": 2405,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 313.039433106576,
-            "audio_source_id": 1861,
+            "duration": 271.452494331066,
+            "audio_source_id": 1639,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2534,
-        "name": "Blue-Pitch Bass",
+        "id": 2109,
+        "name": "Reverb",
+        "volume": 0.48,
+        "position": 7,
+        "owner_id": 3,
+        "clips": [{
+            "id": 2406,
+            "source_offset": 0.0,
+            "begin_offset": 0.0,
+            "end_offset": 0.0,
+            "duration": 271.452494331066,
+            "audio_source_id": 1640,
+            "last_modified_by": 3,
+            "discussions": []
+        }]
+    }, {
+        "id": 2110,
+        "name": "Sub",
+        "volume": 0.6,
+        "position": 8,
+        "owner_id": 3,
+        "clips": [{
+            "id": 2407,
+            "source_offset": 0.0,
+            "begin_offset": 0.0,
+            "end_offset": 99.4099437855734,
+            "duration": 172.042550545492,
+            "audio_source_id": 1641,
+            "last_modified_by": 3,
+            "discussions": []
+        }, {
+            "id": 2422,
+            "source_offset": 0.0,
+            "begin_offset": 172.137931034483,
+            "end_offset": 0.0,
+            "duration": 99.3145632965827,
+            "audio_source_id": 1641,
+            "last_modified_by": 3,
+            "discussions": []
+        }]
+    }, {
+        "id": 2111,
+        "name": "Bass",
         "volume": 1.0,
         "position": 1,
         "owner_id": 3,
         "clips": [{
-            "id": 2993,
+            "id": 2408,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 313.039433106576,
-            "audio_source_id": 1862,
+            "duration": 271.452494331066,
+            "audio_source_id": 1642,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2535,
-        "name": "Blue-Pitch Guitar",
-        "volume": 1.0,
-        "position": 2,
-        "owner_id": 3,
-        "clips": [{
-            "id": 2994,
-            "source_offset": 0.0,
-            "begin_offset": 0.0,
-            "end_offset": 0.0,
-            "duration": 313.039433106576,
-            "audio_source_id": 1863,
-            "last_modified_by": 3,
-            "discussions": []
-        }]
-    }, {
-        "id": 2536,
-        "name": "Blue-Pitch Clavier",
-        "volume": 1.0,
+        "id": 2112,
+        "name": "Skanks",
+        "volume": 0.45,
         "position": 3,
         "owner_id": 3,
         "clips": [{
-            "id": 2995,
-            "source_offset": 4.17391304347826,
-            "begin_offset": 0.0,
-            "end_offset": 0.0,
-            "duration": 313.039433106576,
-            "audio_source_id": 1864,
-            "last_modified_by": 87,
-            "discussions": []
-        }]
-    }, {
-        "id": 2537,
-        "name": "Blue-Pitch MS 20",
-        "volume": 0.65,
-        "position": 4,
-        "owner_id": 3,
-        "clips": [{
-            "id": 2996,
+            "id": 2409,
             "source_offset": 0.0,
             "begin_offset": 0.0,
+            "end_offset": 46.3620973784348,
+            "duration": 225.090396952631,
+            "audio_source_id": 1643,
+            "last_modified_by": 3,
+            "discussions": [{
+                "id": 101,
+                "content": "Un peu vener la montée ici Alex !",
+                "position": 211.93582892774,
+                "created_at": "2014-03-20T09:52:43+01:00",
+                "updated_at": "2014-03-20T09:52:43+01:00",
+                "author_id": 3,
+                "comments": []
+            }, {
+                "id": 103,
+                "content": "Tu pourrais démarrer avec des Skanks le temps qu'Alex y vienne ici Linal",
+                "position": 53.0389769175341,
+                "created_at": "2014-03-20T09:53:50+01:00",
+                "updated_at": "2014-03-20T09:53:50+01:00",
+                "author_id": 3,
+                "comments": []
+            }]
+        }, {
+            "id": 2418,
+            "source_offset": -13.2413793103448,
+            "begin_offset": 238.344827586207,
+            "end_offset": 19.8793387577452,
+            "duration": 13.2283279871135,
+            "audio_source_id": 1643,
+            "last_modified_by": 3,
+            "discussions": []
+        }, {
+            "id": 2419,
+            "source_offset": 0.0,
+            "begin_offset": 238.344827586207,
             "end_offset": 0.0,
-            "duration": 313.039433106576,
-            "audio_source_id": 1865,
+            "duration": 33.1076667448587,
+            "audio_source_id": 1643,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2539,
-        "name": "Blue-Pitch A-RVerb Mono_Stereo",
+        "id": 2113,
+        "name": "Drums",
         "volume": 1.0,
+        "position": 0,
+        "owner_id": 3,
+        "clips": [{
+            "id": 2410,
+            "source_offset": 0.0,
+            "begin_offset": 0.0,
+            "end_offset": 0.0,
+            "duration": 271.452494331066,
+            "audio_source_id": 1644,
+            "last_modified_by": 3,
+            "discussions": []
+        }]
+    }, {
+        "id": 2114,
+        "name": "Guitar",
+        "volume": 0.52,
+        "position": 2,
+        "owner_id": 3,
+        "clips": [{
+            "id": 2411,
+            "source_offset": 0.0,
+            "begin_offset": 0.0,
+            "end_offset": 0.0,
+            "duration": 271.452494331066,
+            "audio_source_id": 1645,
+            "last_modified_by": 3,
+            "discussions": []
+        }]
+    }, {
+        "id": 2115,
+        "name": "Lead",
+        "volume": 0.58,
         "position": 5,
         "owner_id": 3,
         "clips": [{
-            "id": 2998,
+            "id": 2412,
             "source_offset": 0.0,
             "begin_offset": 0.0,
+            "end_offset": 218.500028412918,
+            "duration": 52.9524659181477,
+            "audio_source_id": 1646,
+            "last_modified_by": 3,
+            "discussions": []
+        }, {
+            "id": 2414,
+            "source_offset": 52.9655172413793,
+            "begin_offset": 0.0,
+            "end_offset": 244.982787033607,
+            "duration": 26.4697072974587,
+            "audio_source_id": 1646,
+            "last_modified_by": 3,
+            "discussions": []
+        }, {
+            "id": 2415,
+            "source_offset": 0.0,
+            "begin_offset": 105.931034482759,
             "end_offset": 0.0,
-            "duration": 313.039433106576,
-            "audio_source_id": 1867,
+            "duration": 165.521459848307,
+            "audio_source_id": 1646,
+            "last_modified_by": 3,
+            "discussions": []
+        }, {
+            "id": 2416,
+            "source_offset": 26.4827586206897,
+            "begin_offset": 79.448275862069,
+            "end_offset": 192.017269792228,
+            "duration": -0.0130513232312808,
+            "audio_source_id": 1646,
+            "last_modified_by": 3,
+            "discussions": []
+        }, {
+            "id": 2417,
+            "source_offset": 79.448275862069,
+            "begin_offset": 0.0,
+            "end_offset": 244.982787033607,
+            "duration": 26.4697072974587,
+            "audio_source_id": 1646,
             "last_modified_by": 3,
             "discussions": []
         }]
     }, {
-        "id": 2540,
-        "name": "Blue-Pitch B-LoAir Mono",
-        "volume": 1.0,
+        "id": 2116,
+        "name": "Montée",
+        "volume": 0.26,
         "position": 6,
         "owner_id": 3,
         "clips": [{
-            "id": 2999,
+            "id": 2413,
             "source_offset": 0.0,
             "begin_offset": 0.0,
             "end_offset": 0.0,
-            "duration": 313.039433106576,
-            "audio_source_id": 1868,
+            "duration": 271.452494331066,
+            "audio_source_id": 1647,
             "last_modified_by": 3,
+            "discussions": []
+        }]
+    }, {
+        "id": 2149,
+        "name": "bald elmet 0304",
+        "volume": 1.0,
+        "position": 9,
+        "owner_id": 16,
+        "clips": [{
+            "id": 2440,
+            "source_offset": 0.0,
+            "begin_offset": 0.0,
+            "end_offset": 0.0,
+            "duration": 275.676984126984,
+            "audio_source_id": 1671,
+            "last_modified_by": 16,
             "discussions": []
         }]
     }],
     "audio_sources": [{
-        "id": 1861,
-        "duration": 313.052490234375,
-        "created_at": "2014-05-18T13:42:52+02:00",
+        "id": 1639,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:20+01:00",
         "uploaded": true,
-        "url": "blue-pitch/Blue-Pitch Drums.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/639/original/bald_helmet%2023-Audio.mp3?1395263081",
         "type": "audio/mp3",
-        "bytes": 2504828,
-        "name": "Blue-Pitch Drums.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/861/original/waveform_audiofile-1406398990.9777608.png?1406399009",
+        "bytes": 2172132,
+        "name": "bald_helmet 23-Audio.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/639/original/waveform_audiofile-1406397885.3146424.png?1406397899",
         "waveform_type": "image/png",
-        "waveform_bytes": 1755,
-        "waveform_name": "waveform_audiofile-1406398990.9777608.png"
+        "waveform_bytes": 602,
+        "waveform_name": "waveform_audiofile-1406397885.3146424.png"
     }, {
-        "id": 1862,
-        "duration": 313.052490234375,
-        "created_at": "2014-05-18T13:42:57+02:00",
+        "id": 1640,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:21+01:00",
         "uploaded": true,
-        "url": "blue-pitch/Blue-Pitch Bass.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/640/original/bald_helmet%20A-RVerb%20Mono_Stereo.mp3?1395263101",
         "type": "audio/mp3",
-        "bytes": 2504828,
-        "name": "Blue-Pitch Bass.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/862/original/waveform_audiofile-1406399009.7153645.png?1406399027",
+        "bytes": 2172132,
+        "name": "bald_helmet A-RVerb Mono_Stereo.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/640/original/waveform_audiofile-1406397899.6726003.png?1406397914",
         "waveform_type": "image/png",
-        "waveform_bytes": 1301,
-        "waveform_name": "waveform_audiofile-1406399009.7153645.png"
+        "waveform_bytes": 1647,
+        "waveform_name": "waveform_audiofile-1406397899.6726003.png"
     }, {
-        "id": 1863,
-        "duration": 313.052490234375,
-        "created_at": "2014-05-18T13:43:02+02:00",
+        "id": 1641,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:22+01:00",
         "uploaded": true,
-        "url": "blue-pitch/Blue-Pitch Guitar.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/641/original/bald_helmet%20B-LoAir%20Mono.mp3?1395263120",
         "type": "audio/mp3",
-        "bytes": 2504828,
-        "name": "Blue-Pitch Guitar.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/863/original/waveform_audiofile-1406399027.883815.png?1406399046",
+        "bytes": 2172132,
+        "name": "bald_helmet B-LoAir Mono.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/641/original/waveform_audiofile-1406397914.3822055.png?1406397928",
         "waveform_type": "image/png",
-        "waveform_bytes": 1196,
-        "waveform_name": "waveform_audiofile-1406399027.883815.png"
+        "waveform_bytes": 1942,
+        "waveform_name": "waveform_audiofile-1406397914.3822055.png"
     }, {
-        "id": 1864,
-        "duration": 313.052490234375,
-        "created_at": "2014-05-18T13:43:05+02:00",
+        "id": 1642,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:23+01:00",
         "uploaded": true,
-        "url": "blue-pitch/Blue-Pitch Clavier.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/642/original/bald_helmet%20Bass-1.mp3?1395263140",
         "type": "audio/mp3",
-        "bytes": 2504828,
-        "name": "Blue-Pitch Clavier.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/864/original/waveform_audiofile-1406399046.221683.png?1406399066",
+        "bytes": 2172132,
+        "name": "bald_helmet Bass-1.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/642/original/waveform_audiofile-1406397928.3873825.png?1406397942",
         "waveform_type": "image/png",
-        "waveform_bytes": 412,
-        "waveform_name": "waveform_audiofile-1406399046.221683.png"
+        "waveform_bytes": 1379,
+        "waveform_name": "waveform_audiofile-1406397928.3873825.png"
     }, {
-        "id": 1865,
-        "duration": 313.052490234375,
-        "created_at": "2014-05-18T13:43:08+02:00",
+        "id": 1643,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:23+01:00",
         "uploaded": true,
-        "url": "blue-pitch/Blue-Pitch MS 20.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/643/original/bald_helmet%20Clavier.mp3?1395263159",
         "type": "audio/mp3",
-        "bytes": 2504828,
-        "name": "Blue-Pitch MS 20.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/865/original/waveform_audiofile-1406399066.2405527.png?1406399084",
+        "bytes": 2172132,
+        "name": "bald_helmet Clavier.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/643/original/waveform_audiofile-1406397942.8379.png?1406397956",
         "waveform_type": "image/png",
-        "waveform_bytes": 707,
-        "waveform_name": "waveform_audiofile-1406399066.2405527.png"
+        "waveform_bytes": 1483,
+        "waveform_name": "waveform_audiofile-1406397942.8379.png"
     }, {
-        "id": 1866,
-        "duration": 313.052490234375,
-        "created_at": "2014-05-18T13:43:11+02:00",
+        "id": 1644,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:24+01:00",
         "uploaded": true,
-        "url": "blue-pitch/Blue-Pitch Samples.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/644/original/bald_helmet%20Drums.mp3?1395263178",
         "type": "audio/mp3",
-        "bytes": 2504828,
-        "name": "Blue-Pitch Samples.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/866/original/waveform_audiofile-1406399084.63031.png?1406399104",
+        "bytes": 2172132,
+        "name": "bald_helmet Drums.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/644/original/waveform_audiofile-1406397956.696654.png?1406397971",
         "waveform_type": "image/png",
-        "waveform_bytes": 1133,
-        "waveform_name": "waveform_audiofile-1406399084.63031.png"
+        "waveform_bytes": 1549,
+        "waveform_name": "waveform_audiofile-1406397956.696654.png"
     }, {
-        "id": 1867,
-        "duration": 313.052490234375,
-        "created_at": "2014-05-18T13:43:21+02:00",
+        "id": 1645,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:25+01:00",
         "uploaded": true,
-        "url": "blue-pitch/Blue-Pitch A-RVerb Mono_Stereo.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/645/original/bald_helmet%20Guitar.mp3?1395263197",
         "type": "audio/mp3",
-        "bytes": 2504828,
-        "name": "Blue-Pitch A-RVerb Mono_Stereo.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/867/original/waveform_audiofile-1406399104.1366684.png?1406399122",
+        "bytes": 2172132,
+        "name": "bald_helmet Guitar.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/645/original/waveform_audiofile-1406397971.16844.png?1406397985",
         "waveform_type": "image/png",
-        "waveform_bytes": 710,
-        "waveform_name": "waveform_audiofile-1406399104.1366684.png"
+        "waveform_bytes": 1718,
+        "waveform_name": "waveform_audiofile-1406397971.16844.png"
     }, {
-        "id": 1868,
-        "duration": 313.052490234375,
-        "created_at": "2014-05-18T13:43:23+02:00",
+        "id": 1646,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:26+01:00",
         "uploaded": true,
-        "url": "blue-pitch/Blue-Pitch B-LoAir Mono.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/646/original/bald_helmet%20Lead.mp3?1395263216",
         "type": "audio/mp3",
-        "bytes": 2504828,
-        "name": "Blue-Pitch B-LoAir Mono.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/868/original/waveform_audiofile-1406399122.7777753.png?1406399141",
+        "bytes": 2172132,
+        "name": "bald_helmet Lead.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/646/original/waveform_audiofile-1406397985.4360368.png?1406398001",
         "waveform_type": "image/png",
-        "waveform_bytes": 2099,
-        "waveform_name": "waveform_audiofile-1406399122.7777753.png"
+        "waveform_bytes": 1166,
+        "waveform_name": "waveform_audiofile-1406397985.4360368.png"
     }, {
-        "id": 1873,
-        "duration": 317.279968261719,
-        "created_at": "2014-05-19T23:18:42+02:00",
+        "id": 1647,
+        "duration": 271.465545654297,
+        "created_at": "2014-03-19T22:04:27+01:00",
         "uploaded": true,
-        "url": "blue-pitch/blue pitch samples 1905.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/647/original/bald_helmet%20Monte%CC%81e.mp3?1395263235",
         "type": "audio/mp3",
-        "bytes": 5076506,
-        "name": "blue pitch samples 1905.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/873/original/waveform_audiofile-1406399143.1199276.png?1406399180",
+        "bytes": 2172132,
+        "name": "bald_helmet Montée.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/647/original/waveform_audiofile-1406398002.1964252.png?1406398017",
         "waveform_type": "image/png",
-        "waveform_bytes": 1247,
-        "waveform_name": "waveform_audiofile-1406399143.1199276.png"
+        "waveform_bytes": 906,
+        "waveform_name": "waveform_audiofile-1406398002.1964252.png"
     }, {
-        "id": 1874,
-        "duration": 317.279968261719,
-        "created_at": "2014-05-19T23:25:13+02:00",
+        "id": 1671,
+        "duration": 275.735992431641,
+        "created_at": "2014-04-02T23:33:57+02:00",
         "uploaded": true,
-        "url": "blue-pitch/blue pitch samples 1905.mp3",
+        "url": "http://assets.claw-studio.com/audio_sources/files/000/001/671/original/bald%20elmet%200304.mp3?1396474488",
         "type": "audio/mp3",
-        "bytes": 5076506,
-        "name": "blue pitch samples 1905.mp3",
-        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/874/original/waveform_audiofile-1406399181.0693295.png?1406399218",
+        "bytes": 4411802,
+        "name": "bald elmet 0304.mp3",
+        "waveform_url": "http://assets.claw-studio.com/audio_sources/waveform_images/000/001/671/original/waveform_audiofile-1406398184.1755419.png?1406398212",
         "waveform_type": "image/png",
-        "waveform_bytes": 1247,
-        "waveform_name": "waveform_audiofile-1406399181.0693295.png"
+        "waveform_bytes": 1397,
+        "waveform_name": "waveform_audiofile-1406398184.1755419.png"
     }],
     "discussions": [{
-        "id": 130,
-        "content": "Voilà la version de la répète d'hier, que j'ai vite fait corriger à certains endroits (mise en place du kick et skank) et j'ai rajouté deux tours de \"couplet\" à la fin, à revoir mais ça servira déjà de base !",
+        "id": 100,
+        "content": "Voilà la version répète de bald helmet les tapiolles",
         "position": 0.0,
-        "created_at": "2014-05-06T11:28:28+02:00",
-        "updated_at": "2014-05-19T14:41:41+02:00",
+        "created_at": "2014-03-19T22:24:12+01:00",
+        "updated_at": "2014-03-24T00:50:32+01:00",
         "author_id": 3,
         "comments": [{
-            "id": 104,
-            "content": "J'ai ajouté des p'tites choses....La melodie avec delay du debut c'est chelou c'est pas calé sur claw mais c'est calé sur live....Du coup ca fait bidon..;",
+            "id": 82,
+            "content": "cimer je taf dessus\n",
             "author_id": 16,
-            "created_at": "2014-05-06T23:11:31+02:00"
+            "created_at": "2014-03-19T22:27:25+01:00"
         }, {
-            "id": 111,
-            "content": "@vala:tu me fais trop marrer quand on t'entend chanter au début et vers 3 mn ",
-            "author_id": 50,
-            "created_at": "2014-05-19T14:36:21+02:00"
-        }, {
-            "id": 112,
-            "content": "Putain j'espérais que personne ne remarquerai !",
+            "id": 83,
+            "content": "ils sont les samples !? Balance même si t'as pas tout et que t'es pas tout à fait OK ! L'ideal serait qu'on ait une première version des samples pour la fin de semaine, que début de semaine prochaine on joue avec !",
             "author_id": 3,
-            "created_at": "2014-05-19T14:41:41+02:00"
+            "created_at": "2014-03-20T09:42:32+01:00"
+        }, {
+            "id": 85,
+            "content": "sample: pour lancer la partie stepper ton sample pourrait être sympaen mode tout seul juste avant la partie en mode drop ou comme un drop \net sur le 2eme drop la voix que tu balance je la verrais bien avec un bon delay sur une mesure entière\n\n`\n",
+            "author_id": 50,
+            "created_at": "2014-03-24T00:19:33+01:00"
+        }, {
+            "id": 86,
+            "content": "En fait ouais, il manque un côté plus marquant sur le sample avant le démarrage de la première partie stepper, là on dirait pas qu'il lance trop le truc, alors qu'avec un delay ou un peu autrement ça pourrait être plus patate",
+            "author_id": 3,
+            "created_at": "2014-03-24T00:49:53+01:00"
+        }, {
+            "id": 87,
+            "content": "Et peut être la prochaine fois, essaie d'exporter un peu plus fort aussi tes samples, qu'on puisse un peu les mixer, parce que des fois on entend rien là ",
+            "author_id": 3,
+            "created_at": "2014-03-24T00:50:32+01:00"
         }]
     }, {
-        "id": 136,
-        "content": "Alex faut que tu trouve un gros lead wobble sur les contre temps\n",
+        "id": 104,
+        "content": "Ca y est mes ailleul j'ai mis une  giclette de samples sur le morceau",
         "position": 0.0,
-        "created_at": "2014-05-08T18:17:59+02:00",
-        "updated_at": "2014-05-08T18:17:59+02:00",
-        "author_id": 104,
-        "comments": []
-    }, {
-        "id": 147,
-        "content": "J'ai uploadé la version de la répète de samedi :\n- @Ben : J'ai viré toute la partie avec ton arpégiateur, ça marchait pas trop au niveau de l'arpegio, mais les samples qui étaient en même temps étaient cool. À voir mais peut être qu'il y a pas besoin de synthé à cet endroit là de ton côté. Aussi, tu remarqueras qu'il y a une partie en plus. Et on a réduit un peu la partie ou y'avait ton arpégiateur aussi, c'est passé de 10 patterns à 8. Je te laisse checker.\n- @Alex : J'ai viré ton synthé au moment où on part sur la première partie après l'intro, ça faisait trop à l'écoute. trop de MS20 tue le MS20 ma gueule.",
-        "position": 0.0,
-        "created_at": "2014-05-18T13:47:15+02:00",
-        "updated_at": "2014-05-18T13:47:15+02:00",
-        "author_id": 3,
+        "created_at": "2014-03-20T23:18:13+01:00",
+        "updated_at": "2014-03-20T23:18:13+01:00",
+        "author_id": 16,
         "comments": []
     }]
 }

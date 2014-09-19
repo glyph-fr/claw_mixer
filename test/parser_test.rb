@@ -1,9 +1,10 @@
 require File.expand_path("../test_helper", __FILE__)
 
 json = File.read(file_path('samples/minimal_project.json'))
+# json = File.read(file_path('samples/project.json'))
 
 parser = ClawMixer::Parser.new(json)
-# parser.local_sources = true
+parser.local_sources = true
 sequencer = parser.parse
 
 if File.exist?(file_path('exports/project.wav'))

@@ -17,4 +17,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'ruby-audio'
   s.add_dependency 'ruby-progressbar'
+  s.add_dependency 'terminal-table'
 end
